@@ -1,0 +1,24 @@
+section{
+    background-color: aquamarine;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div:first-child{
+    align-self: flex-start;
+}
+
+div:last-child{
+    align-self: stretch;
+}
