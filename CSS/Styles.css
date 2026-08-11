@@ -34,3 +34,11 @@ header nav{
     display: flex;
     column-gap: 20px;
 }
+
+/* Contenido Principal */
+
+main{
+    text-align: center;
+    width: 600px;
+    align-self: center;
+}
